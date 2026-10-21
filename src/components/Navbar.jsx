@@ -308,7 +308,7 @@ const Navbar = () => {
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="h-2 w-2 text-[#D4AF37]">
               <path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4L12 2z" />
             </svg>
-            Partner Portal
+            Partner Portall
           </span>
         )}
       </div>
