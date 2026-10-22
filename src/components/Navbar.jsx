@@ -6,7 +6,7 @@ import api from "../api/axios.js";
 const OWNER_RESTAURANTS_ENDPOINT = "/restaurants/mine";
 
 // Table booking is live. Flip this to true when online food ordering launches
-// and the "Order Food" / "My Orders" links will appear automatically.
+// and the "Order Food" / "My Orders" links will appear automatically. hii change
 const ORDERS_ENABLED = false;
 
 // Small helper so every icon shares the same stroke style.
