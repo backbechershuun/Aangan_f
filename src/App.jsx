@@ -13,6 +13,7 @@ import MyBookings from "./pages/MyBookings.jsx";
 import MyRestaurants from "./pages/MyRestaurants.jsx";
 import AddRestaurant from "./pages/AddRestaurant.jsx";
 import RestaurantManage from "./pages/RestaurantManage.jsx";
+import Profile from "./pages/Profilee.jsx";
 
 function App() {
   return (
@@ -27,6 +28,14 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route
+          path="/profile"
+          element={
+            <ProtectedRoute>
+              <Profile />
+            </ProtectedRoute>
+          }
+        />
         <Route
           path="/my-bookings"
           element={
