@@ -25,7 +25,7 @@ const FeaturedRestaurants = () => {
   if (loading || restaurants.length === 0) return null;
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-24">
+    <section className="max-w-6xl mx-auto px-6 py-15">
       <div className="text-center mb-16">
         <span className="text-xs font-semibold text-orange-800 tracking-[0.2em] uppercase">
           Handpicked for you
